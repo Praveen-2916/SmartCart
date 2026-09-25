@@ -1,59 +1,41 @@
 # 🛒 SmartCart Customer Segmentation
 
-SmartCart is a customer segmentation system that uses unsupervised machine learning to group customers based on their demographic, purchasing, and engagement behaviour.
+SmartCart is a small machine learning project I built to understand different types of customers based on their purchasing and engagement behaviour.
 
-## 📌 Project Overview
+I used clustering techniques to group similar customers and then built a simple Streamlit app where you can enter customer details and see which type of customer they are most similar to.
 
-The project includes:
+## Live Demo
 
-- Data cleaning and preprocessing
-- Feature engineering
-- Categorical feature encoding
-- Feature scaling
-- PCA for dimensionality reduction and visualization
-- K-Means clustering
-- Agglomerative Hierarchical Clustering
-- Cluster evaluation using WCSS and Silhouette Score
-- Customer cluster characterization
-- Business interpretation of customer segments
-- Streamlit web application for customer segmentation
+Try SmartCart: (https://smartcart-vbtz3vkxy9uxdasx2pmgei.streamlit.app/)
 
-## 🎯 Customer Segments
+## What I did
 
-### Lower-Spending, Higher-Visit Customers
+- Cleaned and prepared the customer data
+- Created useful features such as Age, Customer Tenure and Total Spending
+- Encoded categorical features
+- Scaled the data
+- Used PCA to visualise the data
+- Compared K-Means and Agglomerative Clustering
+- Characterised the resulting customer segments
+- Built a Streamlit application for interactive predictions
+
+## Customer Segments
+
+**Lower-Spending, Higher-Visit Customers**  
 Customers with relatively lower spending but higher website engagement.
 
-### High-Value Customers
-Customers with higher income, spending, and purchasing activity across multiple channels.
+**High-Value Customers**  
+Customers with higher income, spending and purchasing activity across different channels.
 
-### Moderate-Spending Customers
+**Moderate-Spending Customers**  
 Customers with moderate purchasing activity and relatively lower campaign response.
 
-## 🖥️ Streamlit Application
+## Tech Stack
 
-The Streamlit application allows users to enter customer information and identify the corresponding customer segment along with its characteristics and potential recommendations.
+Python · Pandas · NumPy · Scikit-learn · Matplotlib · Seaborn · Streamlit · Joblib
 
-## 🛠️ Packages Used
+## Run Locally
 
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
-- Seaborn
-- Kneed
-- Joblib
-- Streamlit
-
-## 📁 Project Structure
-
-```text
-SmartCart/
-├── app.py
-├── SmartCart_Final.ipynb
-├── smartcart_customers.csv
-├── requirements.txt
-├── README.md
-├── .gitignore
-└── models/
-    └── smartcart_model.pkl
+```bash
+pip install -r requirements.txt
+streamlit run app.py
