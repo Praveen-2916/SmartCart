@@ -6,7 +6,7 @@ I used clustering techniques to group similar customers and then built a simple 
 
 ## Live Demo
 
-Try SmartCart: (https://smartcart-vbtz3vkxy9uxdasx2pmgei.streamlit.app/)
+Try SmartCart: https://smartcart-vbtz3vkxy9uxdasx2pmgei.streamlit.app/
 
 ## What I did
 
