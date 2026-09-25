@@ -1,4 +1,4 @@
-# 🛒 SmartCart Customer Segmentation
+# SmartCart Customer Segmentation
 
 SmartCart is a small machine learning project I built to understand different types of customers based on their purchasing and engagement behaviour.
 
