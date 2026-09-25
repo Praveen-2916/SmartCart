@@ -33,7 +33,7 @@ Customers with moderate purchasing activity and relatively lower campaign respon
 
 The Streamlit application allows users to enter customer information and identify the corresponding customer segment along with its characteristics and potential recommendations.
 
-## 🛠️ Technologies Used
+## 🛠️ Packages Used
 
 - Python
 - Pandas
